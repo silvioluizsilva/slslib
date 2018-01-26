@@ -1,0 +1,7 @@
+name: SlsLib
+description: SlsLib
+main: br.inf.silvioluizsilva.essentials.Main
+authors: [SilvioLuizSilva]
+version: 1.0
+commands:
+  teste:

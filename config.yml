@@ -1,0 +1,14 @@
+# ================================== config.yml ================================
+# Arquivo de configuração padrão
+# Autor: SilvioLuizSilva
+# Versão: 1.0
+# ==================================== default =================================
+# Database:
+#   enable: true // Não fará conexão com banco de dados
+#   enable: false // Ativa a configuração de conexão com banco de dados pelo
+#                 // database.yml
+#   type: mysql // Realiza a conexão via mysql
+# ==============================================================================
+Database:
+  enable: false
+  type: mysql
