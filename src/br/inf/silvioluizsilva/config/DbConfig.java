@@ -8,6 +8,7 @@
  * 
  * Changelog:
  * 25/01/2018 - Versão inicial
+ * 26/01/2018 - Removidos os métodos static
  */
 
 package br.inf.silvioluizsilva.config;
@@ -22,14 +23,14 @@ import br.inf.silvioluizsilva.essentials.Main;
 
 public class DbConfig extends YamlConfiguration {
 
-	private static DbConfig config;
+	private DbConfig config;
 	private Main plugin;
 	private File configFile;
 
 	/**
 	 * Função que verifica se existe uma configuração salva, caso contrário, cria uma
 	 */
-	public static DbConfig getConfig() {
+	public DbConfig getConfig() {
 		if (config == null) {
 			config = new DbConfig();
 		}
